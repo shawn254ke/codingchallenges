@@ -12,8 +12,10 @@ function getGrade(marks) {
     }
 }
 
-
+// Prompt the user to enter student marks
 let marks = prompt("Enter student marks (0 - 100):");
+
+// Convert the input into an integer
 marks = parseInt(marks);
 
 if (marks >= 0 && marks <= 100) {
